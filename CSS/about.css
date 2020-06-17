@@ -1,1 +1,27 @@
+/* this was imported because of the footer style is same as the about page */
+@import './contact.css';
 
+.about {
+    width: 100%;
+    background: url("../images/about/aboutBG.png") no-repeat top left;
+    background-size: cover;
+}
+.about-header {
+    color: #a57619;
+}
+.about-description-box {
+    background: rgba(0, 0, 0, 0.5);
+}
+.about-text {
+    font-size: 0.7rem;
+}
+.about-images  {
+    background: none;
+}
+.gallery-row div img {
+    width: 100%;
+}
+/* Footer Styling */
+.footer {
+  background: #a57619;
+}
